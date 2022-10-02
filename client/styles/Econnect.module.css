@@ -1,0 +1,182 @@
+.container{
+    width: 60vw;
+border-radius: 1rem;
+display: flex;
+height: 500px;
+    z-index: 20;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform: translatey(-50%); */
+    box-shadow: 2px 2px 10px gray;
+}
+.image{
+    flex: 1;
+    height: 100%;
+    background-image: url("https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg?w=2000");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.inputs{
+    flex: 1;
+    height: 100%;
+    padding: 1rem;
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.employeeLogin{
+    font-size: 1.8rem;
+    margin-top: 0.2rem;
+}
+
+.input{
+    width: 85%;
+    padding: 1rem 2rem;
+    border: 2px solid gray;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+
+}
+
+.login{
+    padding: 1rem 2rem;
+    width: 50%;
+    background-color: #358497;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 4px 4px 10px gray;
+}
+
+
+/* Header code   */
+
+
+.header{
+    width: 100vw;
+    height: 4rem;
+    display:flex;
+    align-items:center;
+    background-color:#358497 ;
+    padding: 0rem 1rem;
+    letter-spacing: 4px;
+}
+.banner{
+    width: 100vw;
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+    padding: 1rem 0rem;
+/* border: 1px solid red; */
+}
+
+.banner::before{
+    content: '';
+
+    background-image: url("https://www.accountingweb.com/sites/default/files/clientselection.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 500px;
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+    /* top: 0; */
+}
+
+
+.buttons{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 0rem 3rem;
+
+}
+
+.button{
+background-color: #358497;
+padding: 1rem 1.5rem;
+color: white;
+border: none;
+border-radius: 1rem;
+margin-top: 1rem;
+width: 50%;
+font-size: 1rem;
+}
+
+
+.vision{
+    flex: 2;
+  
+}
+.visionData{
+  box-shadow: 2px 2px 10px gray;
+  padding: 1rem;
+    background-color: white;
+    width: 50%;
+    margin:  auto;
+    border-radius: 1rem;
+    border-bottom: 2px solid #358497;
+}
+
+
+
+
+/* middle section  */
+
+.visionContainer{
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    height: auto;
+    margin: auto;
+}
+
+.divs{
+    flex: 1;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 6px;
+    margin: 0rem 2rem;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #358497;
+
+}
+
+
+
+
+.footerContainer{
+    width: 100vw;
+    display: flex;
+    background-color: #358497;
+    justify-content: space-between;
+    /* padding: 1rem 0rem; */
+    height: auto;
+}
+
+.footerDivs{
+    flex: 1;
+    /* box-shadow: 2px 2px 10px gray; */
+    border-radius: 6px;
+    margin: 0rem 2rem;
+    /* padding: 1rem; */
+    text-align: center;
+    height: auto;
+    /* border-bottom: 2px solid #358497; */
+}
